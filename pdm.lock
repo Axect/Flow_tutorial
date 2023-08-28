@@ -6,7 +6,7 @@ groups = ["default"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:04347a55ea96df4114da19250a268dba9b2e2a32efb7f2d4054ed96da872cc6b"
+content_hash = "sha256:73eca711447883200be83f0beeebe65d6c0cb1b1e6100db3b68d39b8412b23e3"
 
 [[package]]
 name = "aiohttp"
@@ -161,6 +161,28 @@ dependencies = [
 files = [
     {file = "arrow-1.2.3-py3-none-any.whl", hash = "sha256:5a49ab92e3b7b71d96cd6bfcc4df14efefc9dfa96ea19045815914a6ab6b1fe2"},
     {file = "arrow-1.2.3.tar.gz", hash = "sha256:3934b30ca1b9f292376d9db15b19446088d12ec58629bc3f0da28fd55fb633a1"},
+]
+
+[[package]]
+name = "astropy"
+version = "5.3.1"
+requires_python = ">=3.9"
+summary = "Astronomy and astrophysics core library"
+dependencies = [
+    "PyYAML>=3.13",
+    "numpy>=1.21",
+    "packaging>=19.0",
+    "pyerfa>=2.0",
+]
+files = [
+    {file = "astropy-5.3.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:9ab094f48706c0069ffd974c70cdc66b4ebf2a86995a51baff5b4ad76db35a73"},
+    {file = "astropy-5.3.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:568abc896020c89f8ca3f546b55066a133bd157a108542442794ab7ac7923003"},
+    {file = "astropy-5.3.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e4237278ae9645e9dc7136fa204c19fdd3b8d88d688d7a8385a01d0e85ce9c6b"},
+    {file = "astropy-5.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a3aebd3daa8902cb52f44f63cdc487a8d984377b48a7cd5528a295d04a945753"},
+    {file = "astropy-5.3.1-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:55176bd682dcdc640c732d9fd92c9c61aaeb1761dcc86b487df200df99849371"},
+    {file = "astropy-5.3.1-cp311-cp311-win32.whl", hash = "sha256:b4c1712b378aebfbe05f5658844132e84bbf51aafe763686ab78ec131ced4643"},
+    {file = "astropy-5.3.1-cp311-cp311-win_amd64.whl", hash = "sha256:1661d1f78f52f0642e730368d154d93a90fa5c7b75c8949da6d3b50b8512c299"},
+    {file = "astropy-5.3.1.tar.gz", hash = "sha256:9b5321b65e35ff7f7976d34c9ab9748f11d1f427a509aa8d7fc1ead4f9818d74"},
 ]
 
 [[package]]
@@ -448,6 +470,40 @@ files = [
 ]
 
 [[package]]
+name = "cryptography"
+version = "41.0.3"
+requires_python = ">=3.7"
+summary = "cryptography is a package which provides cryptographic recipes and primitives to Python developers."
+dependencies = [
+    "cffi>=1.12",
+]
+files = [
+    {file = "cryptography-41.0.3-cp37-abi3-macosx_10_12_universal2.whl", hash = "sha256:652627a055cb52a84f8c448185922241dd5217443ca194d5739b44612c5e6507"},
+    {file = "cryptography-41.0.3-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:8f09daa483aedea50d249ef98ed500569841d6498aa9c9f4b0531b9964658922"},
+    {file = "cryptography-41.0.3-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4fd871184321100fb400d759ad0cddddf284c4b696568204d281c902fc7b0d81"},
+    {file = "cryptography-41.0.3-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:84537453d57f55a50a5b6835622ee405816999a7113267739a1b4581f83535bd"},
+    {file = "cryptography-41.0.3-cp37-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:3fb248989b6363906827284cd20cca63bb1a757e0a2864d4c1682a985e3dca47"},
+    {file = "cryptography-41.0.3-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:42cb413e01a5d36da9929baa9d70ca90d90b969269e5a12d39c1e0d475010116"},
+    {file = "cryptography-41.0.3-cp37-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:aeb57c421b34af8f9fe830e1955bf493a86a7996cc1338fe41b30047d16e962c"},
+    {file = "cryptography-41.0.3-cp37-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:6af1c6387c531cd364b72c28daa29232162010d952ceb7e5ca8e2827526aceae"},
+    {file = "cryptography-41.0.3-cp37-abi3-win32.whl", hash = "sha256:0d09fb5356f975974dbcb595ad2d178305e5050656affb7890a1583f5e02a306"},
+    {file = "cryptography-41.0.3-cp37-abi3-win_amd64.whl", hash = "sha256:a983e441a00a9d57a4d7c91b3116a37ae602907a7618b882c8013b5762e80574"},
+    {file = "cryptography-41.0.3-pp310-pypy310_pp73-macosx_10_12_x86_64.whl", hash = "sha256:5259cb659aa43005eb55a0e4ff2c825ca111a0da1814202c64d28a985d33b087"},
+    {file = "cryptography-41.0.3-pp310-pypy310_pp73-manylinux_2_28_aarch64.whl", hash = "sha256:67e120e9a577c64fe1f611e53b30b3e69744e5910ff3b6e97e935aeb96005858"},
+    {file = "cryptography-41.0.3-pp310-pypy310_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:7efe8041897fe7a50863e51b77789b657a133c75c3b094e51b5e4b5cec7bf906"},
+    {file = "cryptography-41.0.3-pp310-pypy310_pp73-win_amd64.whl", hash = "sha256:ce785cf81a7bdade534297ef9e490ddff800d956625020ab2ec2780a556c313e"},
+    {file = "cryptography-41.0.3-pp38-pypy38_pp73-macosx_10_12_x86_64.whl", hash = "sha256:57a51b89f954f216a81c9d057bf1a24e2f36e764a1ca9a501a6964eb4a6800dd"},
+    {file = "cryptography-41.0.3-pp38-pypy38_pp73-manylinux_2_28_aarch64.whl", hash = "sha256:4c2f0d35703d61002a2bbdcf15548ebb701cfdd83cdc12471d2bae80878a4207"},
+    {file = "cryptography-41.0.3-pp38-pypy38_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:23c2d778cf829f7d0ae180600b17e9fceea3c2ef8b31a99e3c694cbbf3a24b84"},
+    {file = "cryptography-41.0.3-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:95dd7f261bb76948b52a5330ba5202b91a26fbac13ad0e9fc8a3ac04752058c7"},
+    {file = "cryptography-41.0.3-pp39-pypy39_pp73-macosx_10_12_x86_64.whl", hash = "sha256:41d7aa7cdfded09b3d73a47f429c298e80796c8e825ddfadc84c8a7f12df212d"},
+    {file = "cryptography-41.0.3-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl", hash = "sha256:d0d651aa754ef58d75cec6edfbd21259d93810b73f6ec246436a21b7841908de"},
+    {file = "cryptography-41.0.3-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:ab8de0d091acbf778f74286f4989cf3d1528336af1b59f3e5d2ebca8b5fe49e1"},
+    {file = "cryptography-41.0.3-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:a74fbcdb2a0d46fe00504f571a2a540532f4c188e6ccf26f1f178480117b33c4"},
+    {file = "cryptography-41.0.3.tar.gz", hash = "sha256:6d192741113ef5e30d89dcb5b956ef4e1578f304708701b8b73d38e3e1461f34"},
+]
+
+[[package]]
 name = "cycler"
 version = "0.11.0"
 requires_python = ">=3.6"
@@ -455,6 +511,32 @@ summary = "Composable style cycles"
 files = [
     {file = "cycler-0.11.0-py3-none-any.whl", hash = "sha256:3a27e95f763a428a739d2add979fa7494c912a32c17c4c38c4d5f082cad165a3"},
     {file = "cycler-0.11.0.tar.gz", hash = "sha256:9c87405839a19696e837b3b818fed3f5f69f16f1eec1a1ad77e043dcea9c772f"},
+]
+
+[[package]]
+name = "cython"
+version = "3.0.0"
+requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+summary = "The Cython compiler for writing C extensions in the Python language."
+files = [
+    {file = "Cython-3.0.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:06db81b1a01858fcc406616f8528e686ffb6cf7c3d78fb83767832bfecea8ad8"},
+    {file = "Cython-3.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c93634845238645ce7abf63a56b1c5b6248189005c7caff898fd4a0dac1c5e1e"},
+    {file = "Cython-3.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:aa606675c6bd23478b1d174e2a84e3c5a2c660968f97dc455afe0fae198f9d3d"},
+    {file = "Cython-3.0.0-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d3355e6f690184f984eeb108b0f5bbc4bcf8b9444f8168933acf79603abf7baf"},
+    {file = "Cython-3.0.0-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:93a34e1ca8afa4b7075b02ed14a7e4969256297029fb1bfd4cbe48f7290dbcff"},
+    {file = "Cython-3.0.0-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:bb1165ca9e78823f9ad1efa5b3d83156f868eabd679a615d140a3021bb92cd65"},
+    {file = "Cython-3.0.0-cp311-cp311-win32.whl", hash = "sha256:2fadde1da055944f5e1e17625055f54ddd11f451889110278ef30e07bd5e1695"},
+    {file = "Cython-3.0.0-cp311-cp311-win_amd64.whl", hash = "sha256:254ed1f03a6c237fa64f0c6e44862058de65bfa2e6a3b48ca3c205492e0653aa"},
+    {file = "Cython-3.0.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:4e212237b7531759befb92699c452cd65074a78051ae4ee36ff8b237395ecf3d"},
+    {file = "Cython-3.0.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9f29307463eba53747b31f71394ed087e3e3e264dcc433e62de1d51f5c0c966c"},
+    {file = "Cython-3.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:53328a8af0806bebbdb48a4191883b11ee9d9dfb084d84f58fa5a8ab58baefc9"},
+    {file = "Cython-3.0.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:5962e70b15e863e72bed6910e8c6ffef77d36cc98e2b31c474378f3b9e49b0e3"},
+    {file = "Cython-3.0.0-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:9e69139f4e60ab14c50767a568612ea64d6907e9c8e0289590a170eb495e005f"},
+    {file = "Cython-3.0.0-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:c40bdbcb2286f0aeeb5df9ce53d45da2d2a9b36a16b331cd0809d212d22a8fc7"},
+    {file = "Cython-3.0.0-cp312-cp312-win32.whl", hash = "sha256:8abb8915eb2e57fa53d918afe641c05d1bcc6ed1913682ec1f28de71f4e3f398"},
+    {file = "Cython-3.0.0-cp312-cp312-win_amd64.whl", hash = "sha256:30a4bd2481e59bd7ab2539f835b78edc19fc455811e476916f56026b93afd28b"},
+    {file = "Cython-3.0.0-py2.py3-none-any.whl", hash = "sha256:ff1aef1a03cfe293237c7a86ae9625b0411b2df30c53d1a7f29a8d381f38a1df"},
+    {file = "Cython-3.0.0.tar.gz", hash = "sha256:350b18f9673e63101dbbfcf774ee2f57c20ac4636d255741d76ca79016b1bd82"},
 ]
 
 [[package]]
@@ -673,6 +755,20 @@ files = [
 ]
 
 [[package]]
+name = "gwdatafind"
+version = "1.1.3"
+requires_python = ">=3.6"
+summary = "The GWDataFind data discovery client"
+dependencies = [
+    "igwn-auth-utils>=0.3.1",
+    "ligo-segments",
+]
+files = [
+    {file = "gwdatafind-1.1.3-py3-none-any.whl", hash = "sha256:051f59e351241610619bcad9dc04f8feaa063057342a558a66db61acae12a77a"},
+    {file = "gwdatafind-1.1.3.tar.gz", hash = "sha256:37bd2375771587d2bb72b9df8f1b0e6fb7d90205ea903cc92a654b28561b34f3"},
+]
+
+[[package]]
 name = "h11"
 version = "0.14.0"
 requires_python = ">=3.7"
@@ -683,6 +779,23 @@ files = [
 ]
 
 [[package]]
+name = "h5py"
+version = "3.9.0"
+requires_python = ">=3.8"
+summary = "Read and write HDF5 files from Python"
+dependencies = [
+    "numpy>=1.17.3",
+]
+files = [
+    {file = "h5py-3.9.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:551e358db05a874a0f827b22e95b30092f2303edc4b91bb62ad2f10e0236e1a0"},
+    {file = "h5py-3.9.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:6822a814b9d8b8363ff102f76ea8d026f0ca25850bb579d85376029ee3e73b93"},
+    {file = "h5py-3.9.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:54f01202cdea754ab4227dd27014bdbd561a4bbe4b631424fd812f7c2ce9c6ac"},
+    {file = "h5py-3.9.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:64acceaf6aff92af091a4b83f6dee3cf8d3061f924a6bb3a33eb6c4658a8348b"},
+    {file = "h5py-3.9.0-cp311-cp311-win_amd64.whl", hash = "sha256:804c7fb42a34c8ab3a3001901c977a5c24d2e9c586a0f3e7c0a389130b4276fc"},
+    {file = "h5py-3.9.0.tar.gz", hash = "sha256:e604db6521c1e367c6bd7fad239c847f53cc46646f2d2651372d05ae5e95f817"},
+]
+
+[[package]]
 name = "idna"
 version = "3.4"
 requires_python = ">=3.5"
@@ -690,6 +803,22 @@ summary = "Internationalized Domain Names in Applications (IDNA)"
 files = [
     {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
     {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
+]
+
+[[package]]
+name = "igwn-auth-utils"
+version = "0.4.0"
+requires_python = ">=3.6"
+summary = "Authorisation utilities for IGWN"
+dependencies = [
+    "cryptography>=2.3",
+    "requests>=2.14",
+    "safe-netrc>=1.0.0",
+    "scitokens>=1.7.0",
+]
+files = [
+    {file = "igwn-auth-utils-0.4.0.tar.gz", hash = "sha256:f7e909f058b29d17bb53b835b736dafb332cbd526b9f2e4ffcb9975031190cba"},
+    {file = "igwn_auth_utils-0.4.0-py3-none-any.whl", hash = "sha256:03a8d79e90794cf7b10629c3e70088676ba27486fe353ee1740f18b42237de70"},
 ]
 
 [[package]]
@@ -1097,6 +1226,27 @@ files = [
 ]
 
 [[package]]
+name = "lalsuite"
+version = "7.19"
+requires_python = ">=3.8"
+summary = "LIGO Scientific Collaboration Algorithm Library - minimal Python package"
+dependencies = [
+    "astropy",
+    "ligo-segments",
+    "lscsoft-glue",
+    "matplotlib",
+    "numpy>=1.7",
+    "python-dateutil",
+    "scipy",
+]
+files = [
+    {file = "lalsuite-7.19-cp311-cp311-macosx_10_15_x86_64.whl", hash = "sha256:e2326d6b5bdb659547f03896ac58fd83e069cdce3a906998e1b304dcfb4ca53d"},
+    {file = "lalsuite-7.19-cp311-cp311-macosx_12_0_arm64.whl", hash = "sha256:86f91a2ee588f95e1290b0f218bcc8823ee59d26713e002eac827fccb4f37900"},
+    {file = "lalsuite-7.19-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:0dcc2476589aa8257faad5c2740e012fa0bb39dbc07df38273864c8a501bce1f"},
+    {file = "lalsuite-7.19-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:c22a2b78c773337c31e78dea505653cd140f76525e82c0dd3ecd83983fe06c44"},
+]
+
+[[package]]
 name = "lightning"
 version = "2.0.6"
 requires_python = ">=3.8"
@@ -1181,11 +1331,51 @@ files = [
 ]
 
 [[package]]
+name = "ligo-segments"
+version = "1.4.0"
+summary = "Representations of semi-open intervals"
+dependencies = [
+    "six",
+]
+files = [
+    {file = "ligo-segments-1.4.0.tar.gz", hash = "sha256:e072a844713c5b02efdcaf5bfe4c3a8cd9ef225b08cfd3202a4e185e0f71f5dc"},
+    {file = "ligo_segments-1.4.0-cp311-cp311-win_amd64.whl", hash = "sha256:da82ae2b839bad0027e0a492b3673344e62360747d41194a265563e6c2903c7d"},
+]
+
+[[package]]
 name = "lit"
 version = "16.0.6"
 summary = "A Software Testing Tool"
 files = [
     {file = "lit-16.0.6.tar.gz", hash = "sha256:84623c9c23b6b14763d637f4e63e6b721b3446ada40bf7001d8fee70b8e77a9a"},
+]
+
+[[package]]
+name = "lscsoft-glue"
+version = "3.0.1"
+summary = "Grid LSC User Engine"
+dependencies = [
+    "ligo-segments",
+    "numpy",
+    "pyOpenSSL",
+    "pyRXP",
+    "six",
+]
+files = [
+    {file = "lscsoft-glue-3.0.1.tar.gz", hash = "sha256:a242f29537f18957dbb07e6d9d20d7ebddc86c8325d4fa9e192cfa61a7c6ffbd"},
+]
+
+[[package]]
+name = "mako"
+version = "1.2.4"
+requires_python = ">=3.7"
+summary = "A super-fast templating language that borrows the best ideas from the existing templating languages."
+dependencies = [
+    "MarkupSafe>=0.9.2",
+]
+files = [
+    {file = "Mako-1.2.4-py3-none-any.whl", hash = "sha256:c97c79c018b9165ac9922ae4f32da095ffd3c4e6872b45eded42926deea46818"},
+    {file = "Mako-1.2.4.tar.gz", hash = "sha256:d60a3903dc3bb01a18ad6a89cdbe2e4eadc69c0bc8ef1e3773ba53d44c3f7a34"},
 ]
 
 [[package]]
@@ -1287,6 +1477,19 @@ summary = "A sane and fast Markdown parser with useful plugins and renderers"
 files = [
     {file = "mistune-3.0.1-py3-none-any.whl", hash = "sha256:b9b3e438efbb57c62b5beb5e134dab664800bdf1284a7ee09e8b12b13eb1aac6"},
     {file = "mistune-3.0.1.tar.gz", hash = "sha256:e912116c13aa0944f9dc530db38eb88f6a77087ab128f49f84a48f4c05ea163c"},
+]
+
+[[package]]
+name = "mpld3"
+version = "0.5.9"
+summary = "D3 Viewer for Matplotlib"
+dependencies = [
+    "jinja2",
+    "matplotlib",
+]
+files = [
+    {file = "mpld3-0.5.9-py3-none-any.whl", hash = "sha256:cecdd988b24f8d7c7f362b8f72bb91df1a24b1993dd02a958223918a31c31052"},
+    {file = "mpld3-0.5.9.tar.gz", hash = "sha256:d8d228b2911132fd0154e2a49543b7f97247f9851cfe468c6b616f452c676158"},
 ]
 
 [[package]]
@@ -1704,6 +1907,30 @@ files = [
 ]
 
 [[package]]
+name = "pegasus-wms-api"
+version = "5.0.6"
+requires_python = ">=3.5"
+summary = "Pegasus Workflow Management System Python API"
+dependencies = [
+    "pegasus-wms-common",
+]
+files = [
+    {file = "pegasus-wms.api-5.0.6.tar.gz", hash = "sha256:581f08df523d290b3d54e4f1969e472948c9de306fbf506d85c77e2415c5b99c"},
+]
+
+[[package]]
+name = "pegasus-wms-common"
+version = "5.0.6"
+requires_python = ">=3.5"
+summary = "Pegasus Workflow Management System Python Commons"
+dependencies = [
+    "PyYAML>5.3",
+]
+files = [
+    {file = "pegasus-wms.common-5.0.6.tar.gz", hash = "sha256:7f5d3e170e64c65c4debb7d69d6882a7c74ba83d0f69c4d04f212672eb7e51f3"},
+]
+
+[[package]]
 name = "pexpect"
 version = "4.8.0"
 summary = "Pexpect allows easy control of interactive console applications."
@@ -1860,6 +2087,38 @@ files = [
 ]
 
 [[package]]
+name = "pycbc"
+version = "2.2.1"
+requires_python = ">=3.7"
+summary = "Core library to analyze gravitational-wave data, find signals, and study their parameters."
+dependencies = [
+    "Mako>=1.0.1",
+    "astropy!=4.0.5,!=4.2.1,>=2.0.3",
+    "beautifulsoup4>=4.6.0",
+    "cython>=0.29",
+    "gwdatafind",
+    "h5py!=3.7.0,>=3.0.0",
+    "jinja2",
+    "lalsuite!=7.2",
+    "ligo-segments",
+    "lscsoft-glue>=1.59.3",
+    "matplotlib>=1.5.1",
+    "mpld3>=0.3",
+    "numpy!=1.19.0,>=1.16.0",
+    "numpy>=1.16.0",
+    "pegasus-wms-api>=5.0.3",
+    "pillow",
+    "pykerr",
+    "python-ligo-lw>=1.7.0",
+    "scipy>=0.16.0",
+    "setuptools",
+    "tqdm",
+]
+files = [
+    {file = "PyCBC-2.2.1.tar.gz", hash = "sha256:efe02dbe8ac826463499c835f99fd3ccc112172859df089e4df73d894ea6f19d"},
+]
+
+[[package]]
 name = "pycparser"
 version = "2.21"
 requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
@@ -1949,6 +2208,26 @@ files = [
 ]
 
 [[package]]
+name = "pyerfa"
+version = "2.0.0.3"
+requires_python = ">=3.7"
+summary = "Python bindings for ERFA"
+dependencies = [
+    "numpy>=1.17",
+]
+files = [
+    {file = "pyerfa-2.0.0.3-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:4fa9fceeb78057bfff7ae3aa6cdad3f1b193722de22bdbb75319256f4a9e2f76"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:a8a2029fc62ff2369d01219f66a5ce6aed35ef33eddb06118b6c27e8573a9ed8"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:da888da2c8db5a78273fbf0af4e74f04e2d312d371c3c021cf6c3b14fa60fe3b"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7354753addba5261ec1cbf1ba45784ed3a5c42da565ecc6e0aa36b7a17fa4689"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:3b55f7278c1dd362648d7956e1a5365ade5fed2fe5541b721b3ceb5271128892"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:23e5efcf96ed7161d74f79ca261d255e1f36988843d22cd97d8f60fe9c868d44"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-win32.whl", hash = "sha256:f0e9d0b122c454bcad5dbd0c3283b200783031d3f99ca9c550f49a7a7d4c41ea"},
+    {file = "pyerfa-2.0.0.3-cp311-cp311-win_amd64.whl", hash = "sha256:09af83540e23a7d61a8368b0514b3daa4ed967e1e52d0add4f501f58c500dd7f"},
+    {file = "pyerfa-2.0.0.3.tar.gz", hash = "sha256:d77fbbfa58350c194ccb99e5d93aa05d3c2b14d5aad8b662d93c6ad9fff41f39"},
+]
+
+[[package]]
 name = "pygments"
 version = "2.16.1"
 requires_python = ">=3.7"
@@ -1966,6 +2245,33 @@ summary = "JSON Web Token implementation in Python"
 files = [
     {file = "PyJWT-2.8.0-py3-none-any.whl", hash = "sha256:59127c392cc44c2da5bb3192169a91f429924e17aff6534d70fdc02ab3e04320"},
     {file = "PyJWT-2.8.0.tar.gz", hash = "sha256:57e28d156e3d5c10088e0c68abb90bfac3df82b40a71bd0daa20c65ccd5c23de"},
+]
+
+[[package]]
+name = "pykerr"
+version = "0.1.0"
+summary = "QNM frequencies and spheroidal harmonics of Kerr black holes."
+dependencies = [
+    "h5py",
+    "numpy",
+    "scipy",
+]
+files = [
+    {file = "pykerr-0.1.0-py3-none-any.whl", hash = "sha256:41fef61bd6d7505a78c5f59816fb3dc4c86f3f387d988cb63609a625d421e7f4"},
+    {file = "pykerr-0.1.0.tar.gz", hash = "sha256:b1c1bfe3f22dd74cb2e08c80ed474aba56b29e3f27b7bdc71db8f7100fd8da3e"},
+]
+
+[[package]]
+name = "pyopenssl"
+version = "23.2.0"
+requires_python = ">=3.6"
+summary = "Python wrapper module around the OpenSSL library"
+dependencies = [
+    "cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0",
+]
+files = [
+    {file = "pyOpenSSL-23.2.0-py3-none-any.whl", hash = "sha256:24f0dc5227396b3e831f4c7f602b950a5e9833d292c8e4a2e06b709292806ae2"},
+    {file = "pyOpenSSL-23.2.0.tar.gz", hash = "sha256:276f931f55a452e7dea69c7173e984eb2a4407ce413c918aa34b55f82f9b8bac"},
 ]
 
 [[package]]
@@ -2005,6 +2311,15 @@ files = [
 ]
 
 [[package]]
+name = "pyrxp"
+version = "3.0.1"
+requires_python = ">=3.6, <4"
+summary = "Python RXP interface - fast validating XML parser"
+files = [
+    {file = "pyRXP-3.0.1.tar.gz", hash = "sha256:f5563dee342f329f840380aafccf786b504d6a82e91611defb27f3f51043be9a"},
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.8.2"
 requires_python = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
@@ -2034,6 +2349,23 @@ summary = "A python library adding a json log formatter"
 files = [
     {file = "python-json-logger-2.0.7.tar.gz", hash = "sha256:23e7ec02d34237c5aa1e29a070193a4ea87583bb4e7f8fd06d3de8264c4b2e1c"},
     {file = "python_json_logger-2.0.7-py3-none-any.whl", hash = "sha256:f380b826a991ebbe3de4d897aeec42760035ac760345e57b812938dc8b35e2bd"},
+]
+
+[[package]]
+name = "python-ligo-lw"
+version = "1.8.3"
+summary = "Python LIGO Light-Weight XML I/O Library"
+dependencies = [
+    "ligo-segments",
+    "lscsoft-glue",
+    "numpy",
+    "python-dateutil",
+    "pyyaml",
+    "six",
+    "tqdm",
+]
+files = [
+    {file = "python-ligo-lw-1.8.3.tar.gz", hash = "sha256:424912428a99fa121c071ddb90087b183514878229d4a651c144c649f3780aef"},
 ]
 
 [[package]]
@@ -2301,6 +2633,16 @@ files = [
 ]
 
 [[package]]
+name = "safe-netrc"
+version = "1.0.1"
+requires_python = ">=3.7"
+summary = "Safe netrc file parser"
+files = [
+    {file = "safe-netrc-1.0.1.tar.gz", hash = "sha256:1dcc7263b4d9ce72e0109d8e2bc9ba89c8056ccc618d26c8c94802c6fd753720"},
+    {file = "safe_netrc-1.0.1-py3-none-any.whl", hash = "sha256:5f0dd6a5e304b1da3be220f15efedbf09e50779fe90462143c228c781b9d8218"},
+]
+
+[[package]]
 name = "scienceplots"
 version = "2.1.0"
 summary = "Format Matplotlib for scientific plotting"
@@ -2347,6 +2689,21 @@ files = [
     {file = "scipy-1.9.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:abaf921531b5aeaafced90157db505e10345e45038c39e5d9b6c7922d68085cb"},
     {file = "scipy-1.9.3-cp311-cp311-win_amd64.whl", hash = "sha256:06d2e1b4c491dc7d8eacea139a1b0b295f74e1a1a0f704c375028f8320d16e31"},
     {file = "scipy-1.9.3.tar.gz", hash = "sha256:fbc5c05c85c1a02be77b1ff591087c83bc44579c6d2bd9fb798bb64ea5e1a027"},
+]
+
+[[package]]
+name = "scitokens"
+version = "1.8.1"
+requires_python = ">=3.5"
+summary = "SciToken reference implementation library"
+dependencies = [
+    "PyJWT>=1.6.1",
+    "cryptography",
+    "requests",
+]
+files = [
+    {file = "scitokens-1.8.1-py3-none-any.whl", hash = "sha256:a5455d85969cd7c7b341ed8691ea89e0e446bd414a734f8443752081b049b46c"},
+    {file = "scitokens-1.8.1.tar.gz", hash = "sha256:f255383d9c7402b3fcd20d5ed26a6b407b4be8bec6f282d0af29b6275382b54d"},
 ]
 
 [[package]]
